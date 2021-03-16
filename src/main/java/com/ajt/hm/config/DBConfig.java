@@ -1,11 +1,12 @@
 package com.ajt.hm.config;
 
-public class DBConnection {
+public class DBConfig {
 
 	private String driverClass;
 	private String url;
 	private String userName;
 	private String password;
+	private String vendor;
 
 	public String getDriverClass() {
 		return driverClass;
@@ -37,6 +38,14 @@ public class DBConnection {
 
 	public void setPassword(String password) {
 		this.password = password;
+	}
+
+	public String getVendor() {
+		return vendor;
+	}
+
+	public void setVendor(String vendor) {
+		this.vendor = vendor;
 	}
 
 }
