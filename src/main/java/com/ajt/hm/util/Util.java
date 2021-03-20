@@ -26,14 +26,14 @@ public class Util {
 		if (Objects.nonNull(str) && !str.trim().isEmpty()) {
 			return encoder().encodeToString(str.getBytes());
 		}
-		return null;
+		return  new String();
 	}
 
 	public static String decodeString(String str) {
 		if (Objects.nonNull(str) && !str.trim().isEmpty()) {
 			return new String(decoder().decode(str));
 		}
-		return null;
+		return new String();
 	}
 
 	public static boolean isTableExist(String table) {

@@ -31,10 +31,10 @@ public class RestClient {
 
 	}
 
-	public static void main(String[] args) {
-		System.out.println("STARTED");
-		RestClient client = new RestClient();
-		// String s=client.getAjax("http://localhost:8080/WAOne/rest/api/employee");
-		client.postAjax("http://localhost:8080/WAOne/rest/api/saveEmployee", "{\"id\":101,\"name\":\"Ajeet\"}");
-	}
+//	public static void main(String[] args) {
+//		System.out.println("STARTED");
+//		RestClient client = new RestClient();
+//		// String s=client.getAjax("http://localhost:8080/WAOne/rest/api/employee");
+//		client.postAjax("http://localhost:8080/WAOne/rest/api/saveEmployee", "{\"id\":101,\"name\":\"Ajeet\"}");
+//	}
 }
